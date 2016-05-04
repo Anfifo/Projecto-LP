@@ -125,7 +125,7 @@ movs_possiveis(Lab, Pos_atual, Movs, Poss):-
 
 
 
-distancia((L1,C1), (L2,C2), Dist):-
+distancia((_,L1,C1), (_,L2,C2), Dist):-
 	Dist is abs(L1-L2) + abs(C1-C2).
 
 
